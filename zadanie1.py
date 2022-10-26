@@ -12,6 +12,6 @@ try:
             data1[1] = data[1]
 
     f1.close()
-    print(data1[0], "-", data1[1])
+    print(data1[0], " - ", data1[1])
 except IOError:
     print(IOError.with_traceback())
